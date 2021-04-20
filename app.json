@@ -1,0 +1,13 @@
+{
+    "name": "Strapi",
+    "description": "Strapi Heroku 1 click deploy button",
+    "keywords": ["strapi", "heroku"],
+    "repository": "https://github.com/Dmitruk89/react-strapi-blog",
+    "addons": ["heroku-postgresql:hobby-dev"],
+    "image": "heroku/nodejs",
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ]
+  }
